@@ -6,8 +6,7 @@ const ListView = ({DATA,bodyType="Planet",setReference}) => {
  
   let luna=0
   function moonImg(name){
-    if (luna>=4) {
-
+    if (luna>=3) {
       return(`l${Math.floor(Math.random() * 18)}`)   
     } else {
         luna=luna+1
@@ -15,6 +14,9 @@ const ListView = ({DATA,bodyType="Planet",setReference}) => {
     }
    
   }
+
+
+
 
   let filteredInfo=[]
   const filter = DATA.map( (body) =>{

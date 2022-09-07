@@ -43,7 +43,7 @@ const Options = ({setType}) => {
             >
              <TouchableOpacity className="items-center " onPress={()=> setType("Star")}>   
                 <Image className="h-8 w-8" tintColor='#ffff' source={star}/>
-                <Text className="text-white">Strellas</Text>
+                <Text className="text-white">Stars</Text>
              </TouchableOpacity>
         </LinearGradient>
         {/* Lunas */}
@@ -53,7 +53,7 @@ const Options = ({setType}) => {
             >
              <TouchableOpacity className="items-center " onPress={()=> setType("Moon")}>   
                 <Image className="h-8 w-8" tintColor='#ffff' source={lune}/>
-                <Text className="text-white">Lunas</Text>
+                <Text className="text-white">Moons</Text>
              </TouchableOpacity>
         </LinearGradient>
     </View>
